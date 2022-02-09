@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "cypress_testing",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^9.4.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Godfred Nsabo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
 }
