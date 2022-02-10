@@ -1,13 +1,21 @@
 {
-  "name": "testing",
+  "name": "autotesting",
   "version": "1.0.0",
-  "description": "cypress_testing",
+  "description": "Automated Testing using Cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfred-nsabo/Testing_Cypress.git"
+  },
   "author": "Godfred Nsabo",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godfred-nsabo/Testing_Cypress/issues"
+  },
+  "homepage": "https://github.com/godfred-nsabo/Testing_Cypress#readme",
   "devDependencies": {
     "cypress": "^9.4.1"
   }
