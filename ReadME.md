@@ -13,3 +13,7 @@
 * To Run All the tests under directory
   - `node_modules\.bin\cypress run`
   - `node_modules\.bin\cypress run --headed`
+
+* To Run Single Test under directory
+  - `node_modules\.bin\cypress run --spec "cypress\integration\examples"`
+  
