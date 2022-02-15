@@ -15,5 +15,7 @@
   - `node_modules\.bin\cypress run --headed`
 
 * To Run Single Test under directory
-  - `node_modules\.bin\cypress run --spec "cypress\integration\examples"`
+  - `node_modules\.bin\cypress run --spec "cypress\integration\examples\**.js"`
   
+* To Run All the tests under the directory using Chrome
+  - `node_modules\.bin\cypress run --browser chrome`
