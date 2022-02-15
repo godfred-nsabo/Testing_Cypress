@@ -19,3 +19,15 @@
   
 * To Run All the tests under the directory using Chrome
   - `node_modules\.bin\cypress run --browser chrome`
+
+# Folder Structure
+
+* fixtures - Contains Test Data Files to read the test data
+* integration - containts the main Tests cases
+* plugins - These are the Event Listeners
+* screenshots - Screenshots taken when test cases fails
+* support - Reusabel scripts
+* videos - videos for the test cases
+* node_modules  - Modules for Cypress
+* cypress.json - Cypress Configurations
+* package.json - Dependencies for Cypress
