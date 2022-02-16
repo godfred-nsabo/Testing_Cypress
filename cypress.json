@@ -7,7 +7,7 @@
   "clientCertificates": [],
   "component":{},
   "componentFolder":"cypress/component",
-  "defaultCommandTimeout":4000,
+  "defaultCommandTimeout":5000,
   "downloadsFolder":"cypress/downloads",
   "e2e":{},
   "env":null,
