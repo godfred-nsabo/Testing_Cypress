@@ -31,3 +31,21 @@
 * node_modules  - Modules for Cypress
 * cypress.json - Cypress Configurations
 * package.json - Dependencies for Cypress
+
+
+# get()
+
+* `.get` - Get one or more DOM elements by selector.
+  - `cy.get(selector)` - i.e. the selector locate the element
+
+# CSS Selector
+* `.class` using the class name for the selector/locator
+* `#id` using the id together with hash symbol for the selector/locator
+* `[attribute=value]` using the type in a square bracket for locating the element
+* `.class[attribute=value]`
+
+# Capturing CSS Selectors
+
+* Right CLick on the Element -> Inspect -> Copy -> Copy Selector
+* ChroPath Extension for Chrome
+* Selector Playground from Test Runner
